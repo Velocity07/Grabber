@@ -1,0 +1,31 @@
+appId: com.sourav.grabber
+productName: Grabber
+copyright: Copyright © Sourav Mondal <velocitymetamite@gmail.com>
+directories:
+  output: electron-release
+  buildResources: build
+files:
+  - electron/**/*
+  - dist-desktop/**/*
+  - package.json
+extraResources:
+  - from: resources/bin
+    to: bin
+    filter:
+      - "**/*"
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  artifactName: Grabber-Setup-${version}.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Grabber
+  installerLanguages:
+    - en_US
+  deleteAppDataOnUninstall: false
