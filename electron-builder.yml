@@ -29,3 +29,7 @@ nsis:
   installerLanguages:
     - en_US
   deleteAppDataOnUninstall: false
+publish:
+  - provider: github
+    owner: Velocity07
+    repo: Grabber
