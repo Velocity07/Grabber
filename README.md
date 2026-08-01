@@ -1,25 +1,32 @@
-# Welcome to your Lovable project
+# Grabber 🚀
 
-This project was built with [Lovable](https://lovable.dev).
+A modern, reactive desktop video downloader powered by Electron and yt-dlp. 
 
-## Build with Lovable
+Grabber is designed to provide a clean, minimalist user interface while leveraging the robust downloading capabilities of yt-dlp under the hood. It offers a seamless, high-performance experience for capturing media directly to your local machine.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+---
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## ✨ Features
 
-## Development
+* **Sleek Interface:** A highly responsive, modern UI built with desktop integration in mind.
+* **Powerful Core:** Utilizes the industry-standard `yt-dlp` for maximum compatibility and download speed.
+* **Automated Builds:** CI/CD pipeline integrated via GitHub Actions for reliable and consistent release packaging.
+* **Cross-Platform Ready:** Built on Electron, ensuring smooth operation and native-like performance.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 📥 Installation
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+You do not need to build the project from source to use Grabber. 
+
+1. Navigate to the [Releases](../../releases) section on the right side of this GitHub repository.
+2. Download the latest `Grabber-Setup-x.x.x.exe` file.
+3. Run the installer to automatically set up the application on your Windows machine.
+
+## 🛠️ Technologies Used
+
+* **Framework:** [Electron](https://www.electronjs.org/)
+* **Frontend:** React / Vite
+* **Backend Utilities:** yt-dlp
+* **CI/CD:** GitHub Actions & Electron Builder
 
 ## Built with
 
@@ -27,3 +34,13 @@ npm run dev
 - TypeScript
 - React
 - Tailwind CSS
+
+## 👨‍💻 Author
+
+**Sourav Mondal**
+* GitHub: [@Velocity07](https://github.com/Velocity07)
+
+---
+*Note: This project is for personal and educational use. Always respect the copyright and terms of service of the platforms you are interacting with.*
+
+
