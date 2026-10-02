@@ -13,9 +13,9 @@ Grabber is designed to provide a clean, minimalist user interface while leveragi
 * **Automated Builds:** CI/CD pipeline integrated via GitHub Actions for reliable and consistent release packaging.
 * **Cross-Platform Ready:** Built on Electron, ensuring smooth operation and native-like performance.
 
-## 📥 Installation
+## 📥 Installation 
 
-You do not need to build the project from source to use Grabber. 
+You do not need to build the project from source to use Grabber, Just follow the process .
 
 1. Navigate to the [Releases](../../releases) section on the right side of this GitHub repository.
 2. Download the latest `Grabber-Setup-x.x.x.exe` file.
