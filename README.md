@@ -2,7 +2,7 @@
 
 A modern, reactive desktop video downloader powered by Electron and yt-dlp. 
 
-Grabber is designed to provide a clean, minimalist user interface while leveraging the robust downloading capabilities of yt-dlp under the hood. It offers a seamless, high-performance experience for capturing media directly to your local machine.
+Grabber is designed to provide a clean, minimalist user interface while leveraging the robust downloading capabilities of yt-dlp under the hood. It offers a seamless, high-performance experience for capturing media directly to your  local machine.
 
 ---
 
